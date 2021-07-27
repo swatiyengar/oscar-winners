@@ -1,5 +1,5 @@
 // Read the data
-d3.csv("https://gist.githubusercontent.com/gurmanbh/7f24b09ec9da582559c63869ead3d3a3/raw/d33b4387e7a4553ef28bce9c8f047a3adefa8d7c/oscars.csv")
+d3.csv("https://raw.githubusercontent.com/swatiyengar/oscar-winners/main/oscars.csv")
     .then(function(data) {
 
         // Get a list of years
