@@ -1,0 +1,46 @@
+* {
+    font-family: monospace;
+    text-align: center;
+}
+
+p,
+select,
+button {
+    font-size: 1.5rem;
+}
+
+body {
+    background: skyblue;
+}
+
+.hide {
+    display: none;
+}
+
+.movie-sentence {
+    margin-top: 1rem;
+    width: 350px;
+    margin: 4rem auto;
+}
+
+.movie {
+    font-size: 5rem;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.nominations-sentence {
+    margin-top: 1rem;
+    width: 350px;
+    margin: 4rem auto;
+}
+
+.nomination {
+    font-size: 2rem;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}

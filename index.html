@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lede Test</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <p>
+        When were you born?
+    </p>
+    <select id="year">
+        <option disabled selected>Select a year</option>
+      </select>
+
+    <button type="button" id="result">Tell me!</button>
+
+    <div class="nominations-sentence hide">
+        The year you were born <span class="nomination"></span> were Oscar nominees for best picture.
+    </div>
+
+    <div class="movie-sentence hide">
+        &#129345; &#129345; &#129345; ... <span class="movie"></span> won the Oscar for the best picture!
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
